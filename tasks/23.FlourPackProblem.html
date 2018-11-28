@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p class="coding-exercise__desc" ng-bind-html="instructions" prettify=""><p>Write a method named&nbsp;<strong>canPack&nbsp;</strong>with three parameters of type&nbsp;<strong>int&nbsp;</strong>named&nbsp;<strong>bigCount, smallCount and goal</strong>.&nbsp;</p>
+
+<p>The parameter&nbsp;<strong>bigCount</strong>&nbsp;represents the count of big flour bags (5 kilo each).</p>
+
+
+
+<p>The parameter&nbsp;<strong>smallCount</strong>&nbsp;represents the count of small flour bags (1 kilo each).</p>
+
+
+
+<p>The parameter&nbsp;<strong>goal</strong>&nbsp;represents the goal amount of kilos of flour needed to assemble a package.</p>
+
+
+
+<p>Therefore, the sum of the kilos of&nbsp;<strong>bigCount&nbsp;</strong>and<strong>&nbsp;smallCount&nbsp;</strong>must be at least equal to the value of&nbsp;<strong>goal</strong>. The method should&nbsp;<strong>return true</strong>&nbsp;if it is possible to make a package with&nbsp;<strong>goal</strong>&nbsp;kilos of flour.</p>
+
+
+
+<p>If the sum is greater than&nbsp;<strong>goal</strong>, ensure that only full bags are used towards the goal amount. For example, if&nbsp;<strong>goal</strong>&nbsp;= 9,&nbsp;<strong>bigCount</strong>&nbsp;= 2, and&nbsp;<strong>smallCount</strong>&nbsp;= 0, the method should&nbsp;<strong>return false</strong>&nbsp;because each&nbsp;<strong>bigCount</strong>bag is 5 kilos and cannot be divided. However, if&nbsp;<strong>goal</strong>&nbsp;= 9,&nbsp;<strong>bigCount</strong>&nbsp;= 1, and&nbsp;<strong>smallCount</strong>&nbsp;= 5, the method should&nbsp;<strong>return true</strong>&nbsp;because 1 full&nbsp;<strong>bigCount</strong>&nbsp;bag and 4 full&nbsp;<strong>smallCount</strong>&nbsp;bags equal&nbsp;<strong>goal</strong>, and it's okay if there are additional bags left over.</p>
+
+
+
+<p>If any of the parameters are negative,&nbsp;<strong>return false</strong>.</p>
+
+
+
+
+
+<p><strong>EXAMPLE INPUT/OUTPUT:</strong></p>
+
+
+
+<ul><li><strong><strong>canPack&nbsp;</strong>(1, 0, 4);&nbsp;</strong>should&nbsp;<strong>return false&nbsp;</strong>since bigCount is 1 (big bag of 5 kilos) and goal is 4 kilos.</li><li><strong><strong>canPack&nbsp;</strong>(1, 0, 5);&nbsp;</strong>should&nbsp;<strong>return true&nbsp;</strong>since bigCount is 1 (big bag of 5 kilos) and goal is 5 kilos.</li><li><strong><strong>canPack&nbsp;</strong>(0, 5, 4);&nbsp;</strong>should&nbsp;<strong>return true&nbsp;</strong>since smallCount is 5 (small bags of 1 kilo) and goal is 4 kilos.</li><li><strong><strong>canPack&nbsp;</strong>(2, 2, 12);&nbsp;</strong>should&nbsp;<strong>return true&nbsp;</strong>since bigCount is 2 (big bags 5 kilos each) and smallCount is 2 (small bags of 1 kilo), makes in total 12 kilos and goal is 12 kilos.&nbsp;</li><li><strong><strong>canPack&nbsp;</strong>(-3, 2, 12);&nbsp;</strong>should&nbsp;<strong>return false&nbsp;</strong>since bigCount is negative.</li></ul>
+
+
+
+
+
+<p><strong>NOTE:</strong>&nbsp;The&nbsp;<strong>canPack&nbsp;</strong><strong></strong>method&nbsp;should be defined as<strong>&nbsp;public static&nbsp;</strong>like we have been doing so far in the course.</p>
+
+
+
+<p><strong>NOTE:</strong>&nbsp;Do not add a&nbsp;<strong>m</strong><strong>ain&nbsp;</strong>method to the solution code.</p></p>
+</body>
+</html>

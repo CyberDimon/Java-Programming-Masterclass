@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p class="coding-exercise__desc" ng-bind-html="instructions" prettify=""><p>---<br>** Please read this entire page before attempting to solve this coding exercise.&nbsp; Additional help is available by watching the video mentioned at the bottom of the page **<br>---<br></p><p>Write a method called&nbsp;<strong>numberToWords&nbsp;</strong>with one&nbsp;<strong>int&nbsp;</strong>parameter named&nbsp;<strong>number.<br><br></strong>The method needs to print out the passed&nbsp;number using words for the digits.<strong><br><br></strong>If the&nbsp;number is negative then print <strong>"Invalid Value"</strong>.<br><br> To print the number in words use the following steps</p>
+
+<ol><li>Extract&nbsp;last digit of given number&nbsp;using the remainder operator.&nbsp;</li><li>Switch the value of digit&nbsp;found above. There are 10 possible values of digits those being 0, 1, 2, 3, 4, 5, 6, 7, 8 ,9. Print the corresponding word for each digit.&nbsp; e.g.&nbsp; print "Zero" if digit is 0,&nbsp;"One" if digit is 1, and so on.</li><li>Remove the&nbsp;last digit from the&nbsp;number.</li><li>Repeat step 2 through 4 until the number is 0.</li></ol>
+
+
+
+
+
+
+
+
+
+<p>The logic above is correct but the words will be printed in reverse order. For example if the number is 234 the logic above will produce the output "Four Three Two" instead of "Two Three Four". To overcome this problem write a second method called&nbsp;<strong>r</strong><strong>everse.</strong></p>
+
+
+
+
+
+
+
+
+
+<p>The <strong>reverse </strong>method<strong>&nbsp;</strong>has&nbsp;<strong>one int&nbsp;</strong>parameter and returns the reversed number (<strong>int</strong>). For example if the number passed&nbsp;is 234 then the reversed number returned would be&nbsp;432. <br><br>The <strong>reverse </strong>method&nbsp;should also reverse negative numbers. Use the&nbsp;<strong>reverse</strong>&nbsp;method in the&nbsp;<strong>numberToWords&nbsp;</strong>method&nbsp;then print the words in the correct order.<br><br>For the number&nbsp;<strong>100 </strong>the&nbsp;reverse number is 001. The logic above for the method&nbsp;<strong>n</strong><strong>umberToWords&nbsp;</strong>will print "One" but that is&nbsp;<strong>incorrect&nbsp;</strong>it should print "One Zero Zero".</p>
+
+
+
+
+
+
+
+
+
+<p>To solve the problem with leading zeroes write a third method&nbsp;<strong>g</strong><strong>etDigitCount.&nbsp;<br><br></strong>The <strong>getDigitCount </strong>method<strong>&nbsp;</strong>has one int parameter number and returns the count of digits in that number. If the&nbsp;number is negative then return -1 to indicate an invalid value.<br><br>If number has the value of&nbsp;100 then the method&nbsp;<strong>getDigitCount&nbsp;</strong>needs to return 3 since the&nbsp;number 100 has 3 digits 1, 0, 0.</p>
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>Example Input/Output -&nbsp;getDigitCount method</strong></p>
+
+
+
+
+
+
+
+
+
+<p><strong>getDigitCount(0);</strong>&nbsp;should return 1&nbsp;since there is only 1 digit.<br>
+    <strong>getDigitCount(123);&nbsp;</strong>should return 3.<br><strong>getDigitCount(-12);</strong>&nbsp;should return -1 since the parameter is negative.<br>
+    <strong>getDigitCount(5200);&nbsp;</strong>should return 4 since there are 4 digits in the&nbsp;number.<br></p>
+
+
+
+
+
+
+
+
+
+<p><strong>Example Input/Output - reverse method</strong></p>
+
+
+
+
+
+
+
+
+
+<p><strong>reverse(-121);&nbsp;</strong>should&nbsp; return&nbsp;-121.<br><strong>reverse(1212);</strong>&nbsp;should return&nbsp;&nbsp;2121.<br>
+    <strong>reverse(1234);</strong>&nbsp;should return&nbsp;4321.<br><strong>reverse(100);</strong>&nbsp;should return&nbsp;1.</p>
+
+
+
+
+
+
+
+
+
+<p><strong>Example Input/Output - numberToWords method</strong></p>
+
+
+
+
+
+
+
+
+
+<p><strong>numberToWords(123);&nbsp;</strong>should print<strong>&nbsp;"One Two Three"</strong>.<br><strong>numberToWords(1010);&nbsp;</strong>should print&nbsp;<strong>"One Zero One Zero".<br>
+</strong><strong>numberToWords(1000);</strong> should print&nbsp;<strong>"One Zero Zero Zero".<br>&nbsp;</strong><strong>numberToWords(-12);</strong> should print&nbsp;<strong>"Invalid Value"&nbsp;</strong>since the&nbsp;parameter is negative.</p>
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>HINT:</strong>&nbsp;Use a&nbsp;for loop to print zeroes after reversing the number. <br><br>e.g. 100 reversed&nbsp;is 1 so&nbsp;needs to print "One Zero Zero". To get the number of zeroes check the difference between the&nbsp;digit count from the&nbsp;original number and the reversed number.&nbsp;</p>
+
+
+
+
+
+
+
+
+
+<p><strong>NOTE:&nbsp;</strong>Methods&nbsp;<strong>numberToWords, getDigitCount, reverse&nbsp;</strong>need&nbsp;to be defined as<strong>&nbsp;public static&nbsp;</strong>like we have been doing so far in the course.&nbsp;<br><strong>NOTE:</strong>&nbsp;In total you have to write 3 methods.<br><strong>NOTE:</strong>&nbsp;When printing words for example&nbsp;<strong>numberToWords(123);</strong>&nbsp;each word can be in its own line, for example<br></p>
+
+
+
+
+
+
+
+
+
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="linenums"><li class="L0"><span class="typ">One</span></li><li class="L1"><span class="typ">Two</span></li><li class="L2"><span class="typ">Three</span></li></ol></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>They dont have to be separated by a space.</p>
+
+
+
+
+
+
+
+
+
+<p><strong>NOTE:</strong>&nbsp;Do not add&nbsp;<strong>main&nbsp;</strong>method to solution code.</p><p>--&nbsp;</p>
+
+<p>NEED HELP?&nbsp; If you have not already watched video "<a href="https://www.udemy.com/java-the-complete-java-developer-course/learn/v4/t/lecture/10225902?start=0">Introduction To Coding Exercises</a>", make sure you do that before you attempt this or any other challenge.&nbsp; I show you how to go about solving a challenge, but also COMMON ERRORS you may get when attempting it.</p>
+
+<p>Remember:&nbsp; You need to solve this coding exercise EXACTLY as stated.&nbsp; Using a different method name, or returning a different data type, even adding an extra space to&nbsp; information being printed out, or returned from a method will likely cause your solution to fail!</p>
+
+<p>--</p></p>
+</body>
+</html>

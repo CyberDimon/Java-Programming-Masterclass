@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p class="coding-exercise__desc" ng-bind-html="instructions" prettify=""><p>---<br>** Please read this entire page before attempting to solve this coding exercise.&nbsp; Additional help is available by watching the video mentioned at the bottom of the page **<br>---<br></p><p>Write a method called&nbsp;<strong>isPalindrome</strong>&nbsp;with one&nbsp;<strong>int</strong>&nbsp;parameter called&nbsp;<strong>number</strong>.<br><br>The method needs to return a&nbsp;boolean.<br><br>It should return&nbsp;<strong>true</strong> if the number is a palindrome number otherwise it should return&nbsp;<strong>false</strong>. <br><br>Check the tips below for more info about palindromes.</p>
+
+<p><strong>Example Input/Output</strong></p>
+
+
+
+
+
+<p><strong>isPalindrome(-1221);</strong>&nbsp;should return true</p>
+
+
+
+<p><strong>isPalindrome(707);</strong>&nbsp;should return true</p>
+
+
+
+<p><strong>isPalindrome(11212);</strong>&nbsp;should return false because reverse is 21211 and that is not equal to 11212.</p>
+
+
+
+
+
+
+
+<p><strong>Tip: What is a Palindrome number?</strong>&nbsp; A palindrome number is a number which when&nbsp;<strong>reversed</strong>&nbsp;is equal to the original&nbsp;<strong>number</strong>. For example: 121, 12321, 1001 etc.</p>
+
+
+
+
+
+<p><strong>Tip: Logic to check a palindrome number</strong></p>
+
+
+
+
+
+<p>Find the reverse of the given number. Store it in some variable say&nbsp;<strong>reverse</strong>.
+    Compare the&nbsp;<strong>number</strong>&nbsp;with&nbsp;<strong>reverse</strong>. <br><br>If both are the same then the number&nbsp;<strong>is a palindrome</strong>&nbsp;otherwise <strong>it is&nbsp;</strong><strong>not</strong>.</p>
+
+
+
+
+
+<p><strong>Tip: Logic to reverse a&nbsp;number</strong></p>
+
+
+
+
+
+<p>Declare and initialize another variable to store the reverse of a&nbsp;number, for example&nbsp;<strong>reverse = 0</strong>.
+    <br><br>Extract the last digit of the given number by performing modulo division. <br>Store the last digit to some variable say&nbsp;<strong>lastDigit = num % 10</strong>.
+    <br>Increase the place value of reverse by one.<br> To increase place value&nbsp;<strong>multiply</strong>&nbsp;reverse variable&nbsp;<strong>by 10</strong>&nbsp;e.g.&nbsp;<strong>reverse = reverse * 10.<br></strong>
+    <strong>Add&nbsp;lastDigit</strong>&nbsp;to reverse. <br>Since last digit of&nbsp;<strong>num</strong>&nbsp;is processed, remove last digit of num. To remove last digit divide&nbsp;num&nbsp;<strong>by 10.</strong>
+    <br>Repeat steps until&nbsp;<strong>num</strong>&nbsp;is not equal to (or greater than) zero.<br><br>A while loop would be good for this coding exercise.</p>
+
+
+
+
+
+<p><strong>Tip:</strong>&nbsp;Be careful with reversing a&nbsp;number, you will need a&nbsp;parameter for comparing a reversed number with the starting number (parameter).</p>
+
+
+
+
+
+<p><strong></strong></p>
+
+
+
+<p>NOTE:&nbsp;The <strong>isPalindrome</strong> method&nbsp;needs to be defined as&nbsp;public static&nbsp;like we have been doing so far in the course.&nbsp;<br>NOTE:&nbsp;Do not add a&nbsp;&nbsp;main&nbsp;method to solution code.</p><p>--&nbsp;</p>
+
+<p>NEED HELP?&nbsp; If you have not already watched video "<a href="https://www.udemy.com/java-the-complete-java-developer-course/learn/v4/t/lecture/10225902?start=0">Introduction To Coding Exercises</a>", make sure you do that before you attempt this or any other challenge.&nbsp; I show you how to go about solving a challenge, but also COMMON ERRORS you may get when attempting it.</p>
+
+<p>Remember:&nbsp; You need to solve this coding exercise EXACTLY as stated.&nbsp; Using a different method name, or returning a different data type, even adding an extra space to&nbsp; information being printed out, or returned from a method will likely cause your solution to fail!</p>
+
+<p>--</p></p>
+</body>
+</html>
