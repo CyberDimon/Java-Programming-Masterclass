@@ -9,6 +9,7 @@ import com.CyberDimon.Chapter6.Constructor.Account;
 import com.CyberDimon.Chapter6.Constructor.VipCustomer;
 import com.CyberDimon.Chapter6.Inheritance.Animal;
 import com.CyberDimon.Chapter6.Inheritance.Dog;
+import com.CyberDimon.Chapter6.InheritanceChallenge.InheritanceChallenge;
 import com.CyberDimon.Chapter6.InputChallenge;
 
 import com.CyberDimon.Section4.*;
@@ -107,7 +108,7 @@ public class Main {
 //        dog.walk();
 //        dog.run();
 
-
+        InheritanceChallenge.main(null);
 
     }
 }
