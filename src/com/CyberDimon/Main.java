@@ -11,7 +11,12 @@ import com.CyberDimon.Chapter6.Inheritance.Animal;
 import com.CyberDimon.Chapter6.Inheritance.Dog;
 import com.CyberDimon.Chapter6.InheritanceChallenge.InheritanceChallenge;
 import com.CyberDimon.Chapter6.InputChallenge;
-
+import com.CyberDimon.Chapter7.Composition.Composition;
+import com.CyberDimon.Chapter7.CompositionChallenge.CompositionChallenge;
+import com.CyberDimon.Chapter7.Encapsulation.Encapsulation;
+import com.CyberDimon.Chapter7.EncapsulationChallenge.EncapsulationChallenge;
+import com.CyberDimon.Chapter7.Polymorphism.Polymorphism;
+import com.CyberDimon.Chapter7.PolymorphismChallenge.PolymorphismChallenge;
 import com.CyberDimon.Section4.*;
 import com.CyberDimon.Section5.*;
 
@@ -108,7 +113,16 @@ public class Main {
 //        dog.walk();
 //        dog.run();
 
-        InheritanceChallenge.main(null);
+//        InheritanceChallenge.main(null);
 
+        // Chapter 7
+        // OOP Part 2 - Composition, Encapsulation, and Polymorphism
+
+        //Composition.main(null);
+        //CompositionChallenge.main(null);
+        //Encapsulation.main(null);
+        //EncapsulationChallenge.main(null);
+        //Polymorphism.main(null);
+        PolymorphismChallenge.main(null);
     }
 }
