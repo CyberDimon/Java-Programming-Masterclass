@@ -15,6 +15,7 @@ import com.CyberDimon.Chapter7.Composition.Composition;
 import com.CyberDimon.Chapter7.CompositionChallenge.CompositionChallenge;
 import com.CyberDimon.Chapter7.Encapsulation.Encapsulation;
 import com.CyberDimon.Chapter7.EncapsulationChallenge.EncapsulationChallenge;
+import com.CyberDimon.Chapter7.OOPChallengeApp.OOPChallengeApp;
 import com.CyberDimon.Chapter7.Polymorphism.Polymorphism;
 import com.CyberDimon.Chapter7.PolymorphismChallenge.PolymorphismChallenge;
 import com.CyberDimon.Section4.*;
@@ -123,6 +124,8 @@ public class Main {
         //Encapsulation.main(null);
         //EncapsulationChallenge.main(null);
         //Polymorphism.main(null);
-        PolymorphismChallenge.main(null);
+        //PolymorphismChallenge.main(null);
+        OOPChallengeApp.main(null);
+
     }
 }
