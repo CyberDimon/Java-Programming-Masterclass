@@ -34,7 +34,12 @@ public class OOPChallengeApp {
         // For the two additional classes this may require you to be looking at the base class for pricing and then
         // adding totals to final price.
 
-        Visit morningSession = new Visit(0,"Dima",120.47);
+        Hamburger burger = new Hamburger("classic","chicken",10);
+        burger.setTomato(true);
+        burger.showPrice();
+
+        DeluxeHamburger deluxe = new DeluxeHamburger("classic", "chicken", 12);
+        deluxe.showPrice();
 
     }
 }
