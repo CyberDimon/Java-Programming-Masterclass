@@ -18,6 +18,7 @@ import com.CyberDimon.Chapter7.EncapsulationChallenge.EncapsulationChallenge;
 import com.CyberDimon.Chapter7.OOPChallengeApp.OOPChallengeApp;
 import com.CyberDimon.Chapter7.Polymorphism.Polymorphism;
 import com.CyberDimon.Chapter7.PolymorphismChallenge.PolymorphismChallenge;
+import com.CyberDimon.Chapter8.Arrays;
 import com.CyberDimon.Section4.*;
 import com.CyberDimon.Section5.*;
 
@@ -125,7 +126,8 @@ public class Main {
         //EncapsulationChallenge.main(null);
         //Polymorphism.main(null);
         //PolymorphismChallenge.main(null);
-        OOPChallengeApp.main(null);
+        //OOPChallengeApp.main(null);
+        Arrays.main(null);
 
     }
 }
