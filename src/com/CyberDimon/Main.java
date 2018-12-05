@@ -1,26 +1,8 @@
 package com.CyberDimon;
 
-import com.CyberDimon.Chapter2.*;
-import com.CyberDimon.Chapter3.*;
-import com.CyberDimon.Chapter4.*;
-import com.CyberDimon.Chapter5.*;
-import com.CyberDimon.Chapter6.Classes.Car;
-import com.CyberDimon.Chapter6.Constructor.Account;
-import com.CyberDimon.Chapter6.Constructor.VipCustomer;
-import com.CyberDimon.Chapter6.Inheritance.Animal;
-import com.CyberDimon.Chapter6.Inheritance.Dog;
-import com.CyberDimon.Chapter6.InheritanceChallenge.InheritanceChallenge;
-import com.CyberDimon.Chapter6.InputChallenge;
-import com.CyberDimon.Chapter7.Composition.Composition;
-import com.CyberDimon.Chapter7.CompositionChallenge.CompositionChallenge;
-import com.CyberDimon.Chapter7.Encapsulation.Encapsulation;
-import com.CyberDimon.Chapter7.EncapsulationChallenge.EncapsulationChallenge;
-import com.CyberDimon.Chapter7.OOPChallengeApp.OOPChallengeApp;
-import com.CyberDimon.Chapter7.Polymorphism.Polymorphism;
-import com.CyberDimon.Chapter7.PolymorphismChallenge.PolymorphismChallenge;
-import com.CyberDimon.Chapter8.Arrays;
-import com.CyberDimon.Section4.*;
-import com.CyberDimon.Section5.*;
+import com.CyberDimon.Chapter8.ArrayChallenge;
+import com.CyberDimon.Chapter8.MinimumElementChallenge;
+import com.CyberDimon.Chapter8.ReferencesVsValueTypes;
 
 public class Main {
 
@@ -127,7 +109,9 @@ public class Main {
         //Polymorphism.main(null);
         //PolymorphismChallenge.main(null);
         //OOPChallengeApp.main(null);
-        Arrays.main(null);
-
+        //MyArrays.main(null);
+        //ArrayChallenge.main(null);
+        //ReferencesVsValueTypes.main(null);
+        MinimumElementChallenge.main(null);
     }
 }

@@ -2,7 +2,7 @@ package com.CyberDimon.Chapter8;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class MyArrays {
 
     private static Scanner scanner= new Scanner(System.in);
     public static void main(String[] args) {
