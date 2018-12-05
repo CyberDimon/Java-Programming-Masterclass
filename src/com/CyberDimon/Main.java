@@ -3,6 +3,7 @@ package com.CyberDimon;
 import com.CyberDimon.Chapter8.ArrayChallenge;
 import com.CyberDimon.Chapter8.MinimumElementChallenge;
 import com.CyberDimon.Chapter8.ReferencesVsValueTypes;
+import com.CyberDimon.Chapter8.ReverseArrayChallenge;
 
 public class Main {
 
@@ -112,6 +113,7 @@ public class Main {
         //MyArrays.main(null);
         //ArrayChallenge.main(null);
         //ReferencesVsValueTypes.main(null);
-        MinimumElementChallenge.main(null);
+        //MinimumElementChallenge.main(null);
+        ReverseArrayChallenge.main(null);
     }
 }
