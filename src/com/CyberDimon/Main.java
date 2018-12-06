@@ -1,9 +1,6 @@
 package com.CyberDimon;
 
-import com.CyberDimon.Chapter8.ArrayChallenge;
-import com.CyberDimon.Chapter8.MinimumElementChallenge;
-import com.CyberDimon.Chapter8.ReferencesVsValueTypes;
-import com.CyberDimon.Chapter8.ReverseArrayChallenge;
+import com.CyberDimon.Chapter8.*;
 
 public class Main {
 
@@ -114,6 +111,8 @@ public class Main {
         //ArrayChallenge.main(null);
         //ReferencesVsValueTypes.main(null);
         //MinimumElementChallenge.main(null);
-        ReverseArrayChallenge.main(null);
+        //ReverseArrayChallenge.main(null);
+        ListAndArrayList.main(null);
+
     }
 }
