@@ -112,7 +112,8 @@ public class Main {
         //ReferencesVsValueTypes.main(null);
         //MinimumElementChallenge.main(null);
         //ReverseArrayChallenge.main(null);
-        ListAndArrayList.main(null);
+        //ListAndArrayList.main(null);
+        ArrayListChallenge.main(null);
 
     }
 }
