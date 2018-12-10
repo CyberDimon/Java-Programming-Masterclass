@@ -5,10 +5,12 @@ import java.util.ArrayList;
 public class Customer {
 
     private String name;
-    private ArrayList<Double> transactions = new ArrayList<Double>();
+    private ArrayList<Double> transactions;
 
-    public Customer(String name) {
+    public Customer(String name, double initialAmount) {
         this.name = name;
+        this.transactions = new ArrayList<Double>();
+        addTransaction(initialAmount);
     }
 
     public String getName() {
@@ -39,9 +41,9 @@ public class Customer {
 
     public String getParsedTransactionList() {
         String allTransactionsToPrint = "";
-        for(int i=0; i<transactions.size(); i++) {
-            Double val = transactions.get(i).doubleValue();
-            allTransactionsToPrint.concat(val.toString() + "\n");
+        for(int i=0; i<this.transactions.size(); i++) {
+            Double val = this.transactions.get(i).doubleValue();
+            allTransactionsToPrint = allTransactionsToPrint.concat(val.toString() + "\n");
         }
 
         return allTransactionsToPrint;
