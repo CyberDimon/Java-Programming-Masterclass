@@ -1,6 +1,6 @@
 package com.CyberDimon.Chapter8.ArraysListsAutoboxingUnboxing.ArrayList;
 
-import com.CyberDimon.Chapter8.ArraysListsAutoboxingUnboxing.ArrayList.MobilePhone;
+//import com.CyberDimon.Chapter8.ArraysListsAutoboxingUnboxing.ArrayList.MobilePhone;
 
 public class ArrayListChallenge {
     public static void main(String[] args) {
@@ -24,7 +24,8 @@ public class ArrayListChallenge {
         // Be sure not to expose the inner workings of the Arraylist to MobilePhone
         // e.g. no ints, no .get(i) etc
         // MobilePhone should do everything with Contact objects only.
-        MobilePhone.main(null);
+
+        //MobilePhone.main(null);
 
     }
 }
